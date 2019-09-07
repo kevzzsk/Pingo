@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: RouteGenerator.generateRoute,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Color.fromARGB(255, 255, 110, 82),
+        highlightColor: Color.fromARGB(200, 255, 110, 82)
       ),
-      home: HomePage(),
     );
   }
 }
@@ -55,9 +55,7 @@ class HomePage extends StatelessWidget {
           child: RaisedButton(
             child: Text("Login"),
             onPressed: () {
-              Navigator.pushNamedAndRemoveUntil(
-                  context, '/login', ModalRoute.withName('/'),
-                  arguments: User());
+              Navigator.pushNamed(context, '/itinerary');
             },
           ),
         ),

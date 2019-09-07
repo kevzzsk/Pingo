@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pingu/itinerary_page.dart';
 import 'package:pingu/login/login_screen.dart';
 import 'main.dart';
 
@@ -8,11 +9,13 @@ class RouteGenerator{
 
     switch(settings.name){
       case '/':
-        return MaterialPageRoute(builder: (context)=> HomePage());
+        return MaterialPageRoute(builder: (context)=> ItineraryPage());
       case '/login':
         return MaterialPageRoute(builder: (context)=> LoginScreen(user: args,));
       case '/splash':
         return MaterialPageRoute(builder: (context)=> Container());
+      case '/itinerary':
+        return MaterialPageRoute(builder: (context)=> ItineraryPage());
       
       default: // display error route
         return _errorRoute();
