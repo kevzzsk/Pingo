@@ -1,0 +1,49 @@
+{
+    "items": [
+      {
+        "title": "Singapore Botanic Gardens",
+        "description": "The Singapore Botanic Gardens is a 160-year-old tropical garden located at the fringe of Singapore's Orchard Road shopping district. It is one of three gardens, and the only tropical garden, to be honoured as a UNESCO World Heritage Site.",
+        "price": "Free",
+        "time": 2,
+        "picture": "https://www.visitsingapore.com/see-do-singapore/nature-wildlife/parks-gardens/singapore-botanic-gardens/_jcr_content/par-carousel/carousel_detailpage/carousel/item_2.thumbnail.carousel-img.740.416.jpg",
+        "category": 1,
+        "ranking": 4
+      },
+      {
+        "title": "Universal Studios Singapore",
+        "description": "Universal Studios Singapore is a theme park located within Resorts World Sentosa on Sentosa Island, Singapore. It features 28 rides, shows, and attractions in seven themed zones.",
+        "price": "60",
+        "time": 5,
+        "picture": "https://dqzrr9k4bjpzk.cloudfront.net/images/17215225/1072857027.jpg",
+        "category": 0,
+        "ranking": 4.6
+      },
+      {
+        "title": "Singapore Flyer",
+        "description": "Singapore Flyer is Asia’s Largest Giant Observation Wheel. Standing at a stunning 165m from the ground, the Flyer offers you breathtaking, panoramic views of the Marina Bay and beyond. There’s also a range of shops, restaurants and facilities.",
+        "price": "33",
+        "time": 0.5,
+        "picture": "https://www.littledayout.com/wp-content/uploads/articles/2017/07-July/20170708-SingaporeFlyer/e-SingaporeFlyer.png",
+        "category": 0,
+        "ranking": 4.7
+      },
+      {
+        "title": "The Original Katong Laksa",
+        "description": "Laksa (or curry laksa), originally a Peranakan dish, has managed to capture the hearts and stomachs of both Singaporeans and Malaysians. There are three main variations of laksa: curry laksa, assam laksa and Sarawak laksa. Curry laksa is predominant in Singapore, seeing as to how all the well-known stalls serve this variant. You can still find the other types too, albeit in lesser numbers.",
+        "price": "5",
+        "time": 1,
+        "picture": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/utwmm1yfqovr8xdss9ge/.jpg",
+        "category": 2,
+        "ranking": 4
+      },
+      {
+        "title": "National Museum of Singapore",
+        "description": "The National Museum of Singapore is the oldest museum in Singapore. Its history dates back to 1849, when it was started as a section of a library at Singapore Institution and called the Raffles Library and Museum.",
+        "price": "26",
+        "time": 3,
+        "picture": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/e75d2145-National-Museum-of-Singapore/NationalMuseumofSingapore.jpg",
+        "category": 1,
+        "ranking": 4.5
+      }
+    ]
+  }
