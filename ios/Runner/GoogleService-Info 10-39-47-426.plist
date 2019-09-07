@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>594260259839-usdsqv3cc9u863lio76mh71pkur8i0qr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.594260259839-usdsqv3cc9u863lio76mh71pkur8i0qr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDa-anqcVLsDfz7cPHX5KNMVafTjF5tLcM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>594260259839</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.company.pingu</string>
+	<key>PROJECT_ID</key>
+	<string>pingu-a85b8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pingu-a85b8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:594260259839:ios:d805dd9e1f58f281156dca</string>
+	<key>DATABASE_URL</key>
+	<string>https://pingu-a85b8.firebaseio.com</string>
+</dict>
+</plist>

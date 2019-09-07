@@ -37,26 +37,29 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               title: Text("item1"),
-              onTap: (){},
+              onTap: () {},
             ),
             ListTile(
               title: Text("item2"),
-              onTap: (){},
+              onTap: () {},
             ),
             ListTile(
               title: Text("item3"),
-              onTap: (){},
+              onTap: () {},
             ),
           ],
         ),
       ),
       body: Container(
-        child: FlatButton(
-          child: Text("Login"),
-          onPressed: (){
-            Navigator.pushNamedAndRemoveUntil(context, '/login', ModalRoute.withName('/'),
-            arguments: User());
-          },
+        child: Center(
+          child: RaisedButton(
+            child: Text("Login"),
+            onPressed: () {
+              Navigator.pushNamedAndRemoveUntil(
+                  context, '/login', ModalRoute.withName('/'),
+                  arguments: User());
+            },
+          ),
         ),
       ),
     );
