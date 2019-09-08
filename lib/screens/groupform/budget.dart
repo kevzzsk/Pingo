@@ -31,7 +31,7 @@ class _GroupBudgetState extends State<GroupBudget> {
               style: TextStyle(
                 fontSize: 45,
                 fontWeight: FontWeight.bold,
-                color: Colors.white
+                color: Theme.of(context).primaryColor,
               ),
             ),
           ),
@@ -41,9 +41,10 @@ class _GroupBudgetState extends State<GroupBudget> {
               borderRadius: BorderRadius.circular(10),
               child: Container(
                 height: 70,
-                padding: EdgeInsets.only(top: 10.0, left: 120.0, bottom: 0),
-                color: Colors.grey.withOpacity(0.7),            
+                color: Theme.of(context).primaryColor.withOpacity(0.7),            
                 child: TextFormField(
+                  textAlign: TextAlign.center,
+                  cursorColor: Theme.of(context).primaryColor,
                 style: new TextStyle(
                 fontSize: 30.0,
                 ),
@@ -67,8 +68,8 @@ class _GroupBudgetState extends State<GroupBudget> {
               onPressed: () {
                 Navigator.pushNamed(context, '/accomodation');
               },
-              splashColor: Colors.yellow,
-              color: Colors.green,
+              splashColor: Theme.of(context).primaryColor,
+              color: Theme.of(context).primaryColor,
                 child: Text(
                   'Submit',
                   style: TextStyle(

@@ -58,7 +58,7 @@ class _AccomodationState extends State<Accomodation> {
               style: TextStyle(
                 fontSize: 45,
                 fontWeight: FontWeight.bold,
-                color: Colors.white
+                color: Theme.of(context).primaryColor,
               ),
             ),
           ),
@@ -100,7 +100,7 @@ class _AccomodationState extends State<Accomodation> {
                 Navigator.pushNamed(context, '/personal');
               },
               splashColor: Colors.yellow,
-              color: Colors.green,
+              color: Theme.of(context).primaryColor,
                 child: Text(
                   'Submit',
                   style: TextStyle(

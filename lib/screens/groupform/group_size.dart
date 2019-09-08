@@ -16,7 +16,6 @@ class _GroupSizeState extends State<GroupSize> {
       ),
       body: Container(
         decoration: BoxDecoration(
-          backgroundBlendMode: BlendMode.darken,
         image: DecorationImage(
           image: NetworkImage('https://timedotcom.files.wordpress.com/2018/09/gettyimages-857055066.jpg'),
           fit: BoxFit.cover
@@ -31,7 +30,7 @@ class _GroupSizeState extends State<GroupSize> {
               style: TextStyle(
                 fontSize: 45,
                 fontWeight: FontWeight.bold,
-                color: Colors.white
+                color: Theme.of(context).primaryColor,
               ),
             ),
           ),
@@ -41,9 +40,11 @@ class _GroupSizeState extends State<GroupSize> {
               borderRadius: BorderRadius.circular(10),
               child: Container(
                 height: 70,
-                padding: EdgeInsets.only(top: 10.0, left: 120.0, bottom: 0),
-                color: Colors.grey.withOpacity(0.7),            
+              
+                color: Theme.of(context).primaryColor.withOpacity(0.7),            
                 child: TextFormField(
+                  textAlign: TextAlign.center,
+                  cursorColor: Theme.of(context).primaryColor,
                 style: new TextStyle(
                 fontSize: 30.0,
                 ),
@@ -68,7 +69,7 @@ class _GroupSizeState extends State<GroupSize> {
                   Navigator.pushNamed(context, '/budget');
               },
               splashColor: Colors.yellow,
-              color: Colors.green,
+              color: Theme.of(context).primaryColor,
                 child: Text(
                   'Submit',
                   style: TextStyle(
