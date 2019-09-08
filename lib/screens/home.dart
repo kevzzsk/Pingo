@@ -14,8 +14,15 @@ class _HomeState extends State<HomePage> {
     return Scaffold(
       body: Container(
         padding: EdgeInsets.all(20.0),
-        alignment: Alignment.bottomRight,
-        child: TargetWidget()
+        child: Column(
+          
+          children: <Widget>[
+            Container(
+              child: Image.asset('assets/logo.png'),
+            ),
+            TargetWidget(),
+          ],
+        )
       )
     );
   }

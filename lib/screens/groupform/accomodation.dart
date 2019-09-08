@@ -40,7 +40,7 @@ class _AccomodationState extends State<Accomodation> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Pingu"),
+        title: Text("Pingo!"),
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -97,7 +97,7 @@ class _AccomodationState extends State<Accomodation> {
             child: RaisedButton(
               shape: RoundedRectangleBorder(borderRadius: new BorderRadius.circular(20.0)),
               onPressed: () {
-                Navigator.pushNamed(context, '/accomodation');
+                Navigator.pushNamed(context, '/personal');
               },
               splashColor: Colors.yellow,
               color: Colors.green,

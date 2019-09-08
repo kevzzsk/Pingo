@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../util/colors.dart';
 
 class AppConstants {
-  static const appName = "Pingu";
+  static const appName = "Pingo!";
 }
 
 class AppTextStyles {

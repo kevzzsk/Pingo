@@ -13,7 +13,7 @@ class _GroupBudgetState extends State<GroupBudget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Pingu"),
+        title: Text("Pingo!"),
       ),
       body: Container(
         decoration: BoxDecoration(

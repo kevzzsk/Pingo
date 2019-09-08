@@ -15,7 +15,7 @@ class _LocationState extends State<Location> {
     
     return Scaffold(
       appBar: new AppBar(
-          title: Text("Pingu"),
+          title: Text("Pingo!"),
         ),
         body: ListView(
         padding: EdgeInsets.all(20),
