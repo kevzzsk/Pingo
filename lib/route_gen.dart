@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pingu/itinerary_page.dart';
+import 'package:pingu/createEvent_page.dart';
 import 'package:pingu/login/login_screen.dart';
+import 'package:pingu/screens/groupform/group_size.dart';
+import 'package:pingu/screens/groupform/budget.dart';
+import 'package:pingu/screens/groupform/location.dart';
+import 'package:pingu/screens/groupform/accomodation.dart';
 import 'package:pingu/personal_selection.dart';
 import 'package:pingu/screens/details.dart';
 import 'main.dart';
@@ -11,13 +16,21 @@ class RouteGenerator{
 
     switch(settings.name){
       case '/':
-        return MaterialPageRoute(builder: (context)=> PersonalSelection());
+        return MaterialPageRoute(builder: (context)=> CreateEventPage());
       case '/login':
         return MaterialPageRoute(builder: (context)=> LoginScreen(user: args,));
       case '/splash':
         return MaterialPageRoute(builder: (context)=> Container());
       case '/itinerary':
         return MaterialPageRoute(builder: (context)=> ItineraryPage());
+      case '/location':
+        return MaterialPageRoute(builder: (context)=> Location());
+      case '/groupsize':
+        return MaterialPageRoute(builder: (context)=> GroupSize());
+      case '/budget':
+        return MaterialPageRoute(builder: (context)=> GroupBudget());
+      case '/accomodation':
+        return MaterialPageRoute(builder: (context)=> Accomodation());
       case '/details':
         return MaterialPageRoute(builder: (context)=> Details());
       case'/personal':
