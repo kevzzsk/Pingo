@@ -472,7 +472,36 @@ class _PlanScreenState extends State<PlanScreen> {
                 "Confirm Plan",
                 style: TextStyle(color: Colors.white),
               ),
-              onPressed: () {},
+              onPressed: () {
+                showDialog(
+                  context: context,
+                  builder: (context){
+                    return AlertDialog(
+                      title: Text("Confirm Purchase"),
+                      content: Text("By clicking on yes, we will proceed to book the flights and accommodation reflected on your intinerary. You will be informed of the status via email."),
+                      actions: <Widget>[
+                        new FlatButton(
+                          splashColor: Theme.of(context).primaryColor,
+                          textColor: Theme.of(context).primaryColor ,
+                          child: Text("NO"),
+                          onPressed: (){
+                            Navigator.of(context).pop();
+                          },
+                        ),
+                        new RaisedButton(
+                          color: Theme.of(context).primaryColor,
+                          textColor: Colors.white,
+                          child: Text("YES"),
+                          onPressed: (){
+                            Navigator.of(context).pop();
+                          },
+                        ),
+
+                      ],
+                    );
+                  }
+                );
+              },
             ),
           ),
         ])

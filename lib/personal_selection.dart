@@ -101,6 +101,17 @@ class _PersonalSelectionState extends State<PersonalSelection> {
               }
             },
           ),
+          Padding(
+          padding: const EdgeInsets.only(bottom: 20),
+          child: RaisedButton(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            color: Theme.of(context).primaryColor,
+            child: Text("Submit My Preferences!",style: TextStyle(color: Colors.white),),
+            onPressed: (){
+              Navigator.pushNamedAndRemoveUntil(context, '/itinerary', ModalRoute.withName('/'));
+            },
+          ),
+        )
         ],
       ),
     );
