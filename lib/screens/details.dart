@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:pingu/util/mockdata/sub_places.dart';
 
-
-
 class Details extends StatefulWidget {
   @override
   _DetailsState createState() => _DetailsState();
