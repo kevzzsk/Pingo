@@ -11,7 +11,7 @@ class RouteGenerator{
 
     switch(settings.name){
       case '/':
-        return MaterialPageRoute(builder: (context)=> ItineraryPage());
+        return MaterialPageRoute(builder: (context)=> PersonalSelection());
       case '/login':
         return MaterialPageRoute(builder: (context)=> LoginScreen(user: args,));
       case '/splash':

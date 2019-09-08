@@ -190,7 +190,7 @@ class _IdeaScreenState extends State<IdeaScreen> {
           child: RaisedButton(
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
             color: Theme.of(context).primaryColor,
-            child: Text("Submit My Preferences!",style: TextStyle(color: Colors.white),),
+            child: Text("Update Itinerary!",style: TextStyle(color: Colors.white),),
             onPressed: (){
               
             },
