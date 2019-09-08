@@ -29,7 +29,7 @@ class _IdeaScreenState extends State<IdeaScreen> {
       return Padding(
         padding: const EdgeInsets.only(top: 4, left: 8, right: 8, bottom: 0),
         child: TextField(
-          autofocus: true,
+          autofocus: false,
           controller: _searchQuery,
           cursorColor: Color.fromARGB(255, 250, 82, 32),
           style: new TextStyle(
@@ -184,6 +184,17 @@ class _IdeaScreenState extends State<IdeaScreen> {
               return Container();
             }
           },
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 20),
+          child: RaisedButton(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            color: Theme.of(context).primaryColor,
+            child: Text("Submit My Preferences!",style: TextStyle(color: Colors.white),),
+            onPressed: (){
+              
+            },
+          ),
         )
       ],
     );
