@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pingu/itinerary_page.dart';
 import 'package:pingu/login/login_screen.dart';
+import 'package:pingu/personal_selection.dart';
+import 'package:pingu/screens/details.dart';
 import 'main.dart';
 
 class RouteGenerator{
@@ -16,6 +18,10 @@ class RouteGenerator{
         return MaterialPageRoute(builder: (context)=> Container());
       case '/itinerary':
         return MaterialPageRoute(builder: (context)=> ItineraryPage());
+      case '/details':
+        return MaterialPageRoute(builder: (context)=> Details());
+      case'/personal':
+        return MaterialPageRoute(builder: (context)=> PersonalSelection());
       
       default: // display error route
         return _errorRoute();
