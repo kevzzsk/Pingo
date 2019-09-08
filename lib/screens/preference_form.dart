@@ -13,7 +13,7 @@ class _PreferenceFormStateOne extends State<PreferenceFormOne> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Pingu"),
+          title: Text("Pingo!"),
         ),
         body: new Location()
     );
@@ -30,7 +30,7 @@ class _PerferenceFormStateTwo extends State<PerferenceFormTwo> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Pingu"),
+          title: Text("Pingo!"),
         ), 
         body: new GroupSize()
     );

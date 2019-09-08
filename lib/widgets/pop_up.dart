@@ -32,9 +32,6 @@ class _TargetWidgetState extends State<TargetWidget> {
     // We create the tooltip on the first use
     tooltip = SuperTooltip(
       popupDirection: TooltipDirection.up,
-      top: 550.0,
-      right: 50.0,
-      left: 100.0,
       showCloseButton: ShowCloseButton.outside,
       hasShadow: false,
       content: new Material(
@@ -64,16 +61,21 @@ class _TargetWidgetState extends State<TargetWidget> {
       child: new GestureDetector(
         onTap: onTap,
         child: Container(
-          width: 50.0,
-          height: 50.0,
           decoration: new BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.green,
+            borderRadius: BorderRadius.circular(20),
+            color: Theme.of(context).primaryColor,
           ),
-          child: new Icon(
-            Icons.add,
-            color: Colors.white,
-            size: 35.0,
+          child: Row(
+            children: <Widget>[
+                new Icon(
+              Icons.add,
+              color: Colors.white,
+              size: 35.0,
+            ),
+            SizedBox(width: 5,),
+            Text("Create A New Trip",style: TextStyle(color: Colors.white),)
+            ],
+                    
           ),
         ),
       ),

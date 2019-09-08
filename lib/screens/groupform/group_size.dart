@@ -12,10 +12,11 @@ class _GroupSizeState extends State<GroupSize> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Pingu"),
+        title: Text("Pingo!"),
       ),
       body: Container(
         decoration: BoxDecoration(
+          backgroundBlendMode: BlendMode.darken,
         image: DecorationImage(
           image: NetworkImage('https://timedotcom.files.wordpress.com/2018/09/gettyimages-857055066.jpg'),
           fit: BoxFit.cover

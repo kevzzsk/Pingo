@@ -11,7 +11,7 @@ class _CreateEventPageState extends State<CreateEventPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Pingu"),
+          title: Text("Pingo!"),
         ),
         body: HomePage(), 
     );
