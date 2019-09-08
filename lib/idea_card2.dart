@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pingu/model/item.dart';
 
-class IdeaCard extends StatefulWidget {
+class IdeaCard2 extends StatefulWidget {
   final Item item;
 
-  IdeaCard({this.item});
+  IdeaCard2({this.item});
 
   @override
-  _IdeaCardState createState() => _IdeaCardState();
+  _IdeaCard2State createState() => _IdeaCard2State();
 }
 
-class _IdeaCardState extends State<IdeaCard> with TickerProviderStateMixin {
+class _IdeaCard2State extends State<IdeaCard2> with TickerProviderStateMixin {
   Color _color;
   bool _resized = false;
   Color priColor;
@@ -209,23 +209,15 @@ class _IdeaCardState extends State<IdeaCard> with TickerProviderStateMixin {
                             child: Container(
                               child: Padding(
                                 padding: const EdgeInsets.all(2.0),
-                                child: Text("Add to Plan",style: TextStyle(fontSize: 12),),
+                                child: _resized? Icon(Icons.favorite,color: Colors.red,):Icon(Icons.favorite_border,color: Colors.red,)
                               ),
-                              decoration: BoxDecoration(
-                                  color:_color,
-                                  borderRadius: BorderRadius.circular(15),
-                                  border: Border.all(color: Theme.of(context).primaryColor,width: 2)),
-                                  
                             ),
                             onTap: () {
                               setState(() {
                                 if (_resized) {
-                                  _color =  Theme.of(context).primaryColor;
                                   _resized = false;
                                 } else {
-                                  _color = Colors.transparent;
                                   _resized = true;
-                                  
                                 }
                               });
                             },

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pingu/tabview/about_page.dart';
 import 'package:pingu/tabview/first_screen.dart';
 import 'package:pingu/tabview/idea_screen.dart';
 import 'package:pingu/tabview/log_screen.dart';
@@ -24,7 +25,7 @@ class _ItineraryPageState extends State<ItineraryPage> with TickerProviderStateM
       length: 4,
       child: Scaffold(
         appBar: new AppBar(
-          title: Text("My Travel Plan"),
+          title: Text("Summer Singapore"),
           actions: <Widget>[
             IconButton( icon:Icon(Icons.more_vert), onPressed: (){},)
           ],
@@ -42,7 +43,7 @@ class _ItineraryPageState extends State<ItineraryPage> with TickerProviderStateM
         ),
         body: TabBarView(
           children: <Widget>[
-            Container(),
+            AboutPage(),
             PlanScreen(),
             IdeaScreen(),
             LogScreen(),

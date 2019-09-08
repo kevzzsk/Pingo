@@ -6,6 +6,8 @@ import 'package:pingu/screens/groupform/group_size.dart';
 import 'package:pingu/screens/groupform/budget.dart';
 import 'package:pingu/screens/groupform/location.dart';
 import 'package:pingu/screens/groupform/accomodation.dart';
+import 'package:pingu/personal_selection.dart';
+import 'package:pingu/screens/details.dart';
 import 'main.dart';
 
 class RouteGenerator{
@@ -29,6 +31,10 @@ class RouteGenerator{
         return MaterialPageRoute(builder: (context)=> GroupBudget());
       case '/accomodation':
         return MaterialPageRoute(builder: (context)=> Accomodation());
+      case '/details':
+        return MaterialPageRoute(builder: (context)=> Details());
+      case'/personal':
+        return MaterialPageRoute(builder: (context)=> PersonalSelection());
       
       default: // display error route
         return _errorRoute();

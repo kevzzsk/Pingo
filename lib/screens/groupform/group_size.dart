@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pingu/screens/groupform/budget.dart';
 
 
 class GroupSize extends StatefulWidget{

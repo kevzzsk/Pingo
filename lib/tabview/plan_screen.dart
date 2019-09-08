@@ -13,20 +13,23 @@ class _PlanScreenState extends State<PlanScreen> {
     Padding(
       padding: const EdgeInsets.only(left: 4),
       child: Text(
-        "10:00am",
+        "09:00am",
         style: TextStyle(color: Colors.grey, fontSize: 12),
       ),
     ),
     ActivityCard(
       title: "River Safari",
-      street: "Safari Road",
-      postal: "623123",
-      price: "\$38/pax",
+      street: "80 Mandai Lake Rd,",
+      postal: "Singapore 729826",
+      price: "\$34/pax",
+      time: "2h",
+      category: 0,
+      picture: "https://dunujclut7631.cloudfront.net/images/09010000ef0ycu2yq8",
     ),
     Padding(
       padding: const EdgeInsets.only(left: 4),
       child: Text(
-        "12:00pm",
+        "11:00am",
         style: TextStyle(color: Colors.grey, fontSize: 12),
       ),
     ),
@@ -34,29 +37,7 @@ class _PlanScreenState extends State<PlanScreen> {
     Padding(
       padding: const EdgeInsets.only(left: 4),
       child: Text(
-        "12:30pm",
-        style: TextStyle(color: Colors.grey, fontSize: 12),
-      ),
-    ),
-    ActivityCard(
-      title: "Botanic Garden",
-      street: "1 Clony Road",
-      postal: "821226",
-      time: "1.5",
-      price: "Free",
-    ),
-    Padding(
-      padding: const EdgeInsets.only(left: 4),
-      child: Text(
-        "02:30pm",
-        style: TextStyle(color: Colors.grey, fontSize: 12),
-      ),
-    ),
-    ActivityTravel(),
-    Padding(
-      padding: const EdgeInsets.only(left: 4),
-      child: Text(
-        "03:00pm",
+        "11:30pm",
         style: TextStyle(color: Colors.grey, fontSize: 12),
       ),
     ),
@@ -64,8 +45,122 @@ class _PlanScreenState extends State<PlanScreen> {
         title: "Katong Laksa",
         street: "51 E Coast Road",
         postal: "921312",
-        time: "2",
-        price: "\$9/pax")
+        time: "2h",
+        price: "\$9/pax",
+        category: 2,
+        picture: "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/utwmm1yfqovr8xdss9ge/.jpg",),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "01:30pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityTravel(),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "02:00pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityCard(
+      title: "Botanic Garden",
+      street: "1 Clony Road",
+      postal: "821226",
+      time: "1.5h",
+      price: "Free",
+      category: 1,
+      picture: "https://www.visitsingapore.com/see-do-singapore/nature-wildlife/parks-gardens/singapore-botanic-gardens/_jcr_content/par-carousel/carousel_detailpage/carousel/item_2.thumbnail.carousel-img.740.416.jpg",
+    ),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "03:30pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityTravel(),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "04:00pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityCard(
+      title: "Universal Studios Singapore",
+      street: "8 Sentosa Gateway,",
+      postal: "Singapore 098269",
+      time: "3h",
+      price: "\$79/pax",
+      category: 0,
+      picture: "https://dqzrr9k4bjpzk.cloudfront.net/images/17215225/1072857027.jpg",
+    ),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "07:00pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityTravel(),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "07:30pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityCard(
+      title: "LAVO Italian Restaurant And Rooftop Bar",
+      street: "10 Bayfront Ave, tower 1,",
+      postal: "Singapore 018956",
+      time: "1h",
+      price: "\$60/pax",
+      category: 2,
+      picture: "https://www.marinabaysands.com/content/dam/singapore/marinabaysands/master/main/home/restaurants/italian/LAVO/-LAVO-Night-View-Photo-Shoot_1000x575.jpg",
+    ),Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "08:30pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityTravel(),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "9:00pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityCard(
+      title: "GARDENS BY THE BAY",
+      street: "18 Marina Gardens Dr",
+      postal: "Singapore 018953",
+      time: "2h",
+      price: "\$28/pax",
+      category: 2,
+      picture: "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/b26c5529-Gardens-by-the-Bay/GardensbytheBayTicketinSingapore(DirectEntry).jpg",
+    ),
+    Padding(
+      padding: const EdgeInsets.only(left: 4),
+      child: Text(
+        "11:00pm",
+        style: TextStyle(color: Colors.grey, fontSize: 12),
+      ),
+    ),
+    ActivityCard(
+      title: "ACCOMMODATION",
+      street: "3 River Valley Rd,",
+      postal: "Singapore 179024",
+      time: "-",
+      price: "\$89/night",
+      category: 3,
+      picture: "https://media.nomadicmatt.com/2018/accommodations_04.jpg",
+    ),
+
   ];
 
   List activities2 = [
@@ -110,8 +205,6 @@ class _PlanScreenState extends State<PlanScreen> {
     ),
     ActivityCard()
   ];
-
-  
 
   int selectedTab = 0;
   int isMap = 0;
@@ -163,7 +256,7 @@ class _PlanScreenState extends State<PlanScreen> {
       } else {
         return Expanded(
           child: Image.asset(
-            'assets/Gmaps.jpg',
+            'assets/Gmaps2.jpg',
             fit: BoxFit.fitHeight,
           ),
         );
@@ -191,13 +284,11 @@ class _PlanScreenState extends State<PlanScreen> {
                   Padding(
                       padding: const EdgeInsets.fromLTRB(15, 4, 0, 2),
                       child: RichText(
-                        text: TextSpan(
-                          children: [
-                            TextSpan(text: "SGD 200.00 (",style: infoStyle),
-                            TextSpan(text: "+50.00",style: greenStyle),
-                            TextSpan(text: ")",style: infoStyle)
-                          ]
-                        ),
+                        text: TextSpan(children: [
+                          TextSpan(text: "SGD 200.00 (", style: infoStyle),
+                          TextSpan(text: "+50.00", style: greenStyle),
+                          TextSpan(text: ")", style: infoStyle)
+                        ]),
                       ))
                 ],
               ),
@@ -261,13 +352,11 @@ class _PlanScreenState extends State<PlanScreen> {
                                 children: <Widget>[
                                   Text(
                                     "Tue".toUpperCase(),
-                                    style:
-                                        selectedTab == 0 ? _style : _style2,
+                                    style: selectedTab == 0 ? _style : _style2,
                                   ),
                                   Text(
                                     "01",
-                                    style:
-                                        selectedTab == 0 ? _style : _style2,
+                                    style: selectedTab == 0 ? _style : _style2,
                                   )
                                 ],
                               ),
@@ -283,28 +372,28 @@ class _PlanScreenState extends State<PlanScreen> {
                           child: Padding(
                             padding: const EdgeInsets.symmetric(vertical: 8),
                             child: Container(
-                                height: 65,
-                                width: 65,
-                                decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    color: selectedTab == 1
-                                        ? Theme.of(context).primaryColor
-                                        : Colors.transparent),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: <Widget>[
-                                    Text(
-                                      "Wed".toUpperCase(),
-                                      style: selectedTab == 1 ? _style : _style2,
-                                    ),
-                                    Text(
-                                      "02",
-                                      style: selectedTab == 1 ? _style : _style2,
-                                    )
-                                  ],
-                                ),
+                              height: 65,
+                              width: 65,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: selectedTab == 1
+                                      ? Theme.of(context).primaryColor
+                                      : Colors.transparent),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: <Widget>[
+                                  Text(
+                                    "Wed".toUpperCase(),
+                                    style: selectedTab == 1 ? _style : _style2,
+                                  ),
+                                  Text(
+                                    "02",
+                                    style: selectedTab == 1 ? _style : _style2,
+                                  )
+                                ],
                               ),
+                            ),
                           ),
                           onTap: () {
                             setState(() {
@@ -356,7 +445,37 @@ class _PlanScreenState extends State<PlanScreen> {
               _buildContent(selectedTab, isMap)
             ],
           ),
-        ))
+        )),
+        ButtonBar(
+          alignment: MainAxisAlignment.center,
+          children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(bottom: 20),
+            child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              color: Theme.of(context).primaryColor,
+              child: Text(
+                "Add Item",
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () {},
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(bottom: 20),
+            child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              color: Theme.of(context).primaryColor,
+              child: Text(
+                "Confirm Plan",
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () {},
+            ),
+          ),
+        ])
       ],
     );
   }
